@@ -1,0 +1,178 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.7rem;
+
+}
+
+.email {
+  background-color: rgb(23, 74, 124);
+  color: white;
+  padding: 0.5em;
+  text-align: right;
+}
+
+header {
+  background-color: #097aac;
+}
+
+.nav {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.logo-container {
+  width: 16rem;
+  margin: 24 0 24 0;
+  margin-right: auto;
+}
+
+.logo-container > a > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.links-container {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.content {
+  display: flex;
+  width: 80%;
+  max-width: 1080px;
+  padding-top: 64px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.links-container > a,
+li > a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.helpful-links-container > ul > li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.helpful-links-container a {
+  display: block;
+  background-color: #006ea1;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.helpful-links-container a:hover {
+  background-color: #174a7c;
+}
+
+.helpful-links-container div {
+  color: #174a7c;
+  font-size: 1.125rem;
+}
+
+.instructions-container {
+  width: 74%;
+  margin-right: 5.5%;
+}
+
+.helpful-links-container {
+  width: 20%;
+}
+
+.instructions-container h1 {
+  color: #097aac;
+  font-weight: 500;
+}
+
+.mySlides li {
+  margin-bottom: 10px;
+  margin: 0 35px 10px 35px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container button {
+  font-size: 1.5rem;
+  background-color: #006ea1;
+  border-radius: 10px;
+  border: 0;
+}
+
+.btn-container button:hover {
+  background-color: #174a7c;
+}
+
+.btn-container a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.footer-container {
+}
+.ajc {
+  padding-top: 20px;
+  background-color: #174a7c;
+}
+
+.fa-brands {
+  color: #fed52c;
+  font-size: 24px;
+}
+
+.ajc p:first-child {
+  color: #fed52c;
+}
+
+.ajc > div {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+footer {
+  color: white;
+}
+
+.cwp {
+  margin-right: 40px;
+  width: 45%;
+}
+
+.bottom{ 
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: left;
+  padding: 20px;
+}
+
+.bottom div {
+  width: 80%;
+  margin: auto;
+}
+
+.bottom p {
+  margin-right: 200px;
+  color: rgb(150, 150, 150);
+}
