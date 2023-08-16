@@ -5,7 +5,6 @@ body {
   font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
   -webkit-font-smoothing: antialiased;
   line-height: 1.7rem;
-
 }
 
 .email {
@@ -94,8 +93,10 @@ ul {
   width: 20%;
 }
 
-.instructions-container h1 {
+.instructions-container > h1,
+.instructions-container > h2 {
   color: #097aac;
+  line-height: 40px;
   font-weight: 500;
 }
 
@@ -159,7 +160,7 @@ footer {
   width: 45%;
 }
 
-.bottom{ 
+.bottom {
   display: flex;
   background-color: black;
   align-items: center;
@@ -176,3 +177,35 @@ footer {
   margin-right: 200px;
   color: rgb(150, 150, 150);
 }
+
+.wioa-services-container {
+  padding-left: 36px;
+}
+
+.call-container {
+  background-color: #006ea1;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.call-container p {
+  margin: 5px;
+}
+
+.slideshow-container .text {
+  font-size: 2rem;
+}
+
+.mySlides > .congrats-container {
+  background-color: #006ea1;
+  border-radius: 10px;
+  color: white;
+  padding: 1px;
+}
+
